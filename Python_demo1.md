@@ -30,15 +30,19 @@
 ## 交互式编程  
 
 - 交互式编程：不需要创建脚本文件，是通过Python解释器的交互模式来编写代码。
-  - 在window上打开自带的IDE（即`F:/Python/Lib/idlelib/idle.py`），如：![自带IDE截图](photo/1.png)
-  - 在Python2.7.14中输入`print "hello,Python!你好"`，点击enter查看效果，如：![效果图](photo/2.png)  
+  - 在window上打开自带的IDE（即`F:/Python/Lib/idlelib/idle.py`），如：  
+  ![自带IDE截图](photo/1.png)
+  - 在Python2.7.14中输入`print "hello,Python!你好"`，点击enter查看效果，如：  
+  ![效果图](photo/2.png)  
 ## 脚本式编程  
 
 - 脚本式编程：通过脚本参数调用解释器开始执行脚本，直到脚本执行完毕，当脚本执行完成后，解释器不再有效。
-  - Python脚本文件以`.py`为扩展名，将代码写到文件中(如：test.py)，如：![效果图](photo/3.png)  
+  - Python脚本文件以`.py`为扩展名，将代码写到文件中(如：test.py)，如：  
+  ![效果图](photo/3.png)  
   如果文件中有中文，需要用`# -*- coding: UTF-8 -*-`转为中文编码，不然不能正常输出）
   - 执行`python C:/Users/thinkpad/Desktop/test.py`(备注：Python已配置在环境变量里面，可直接打开cmd命令，输入该命令行)点击enter可查看结果。
-  如：![效果图](photo/4.png)  
+  如：  
+  ![效果图](photo/4.png)  
 ## Python标识符  
 
 - 在Python中，标识符由字母、数字、下划线组成。  
@@ -54,19 +58,22 @@
 
 - 保留字不能用作常数或变数，或任何其他标识符名称；  
 - 所有Python的保留字字只包含小写字母；  
-以下是Python的保留字：![效果图](photo/6.png)  
+以下是Python的保留字：  
+![效果图](photo/6.png)  
 ## 行与缩进
 
 - Python与其他语言最大的区别是，Python的代码块不使用大括号来控制类，函数以及其他逻辑判断，而是**用缩进来写模块**。
 - 缩进的空白数量是可变的，但是**所有代码块语句必须包含相同的缩进空白数量**，这个必须严格执行
-- 没有严格缩进，在执行时会报`IndentationError`的错。**所以Python对格式要求是非常严格的**，如下代码：![效果图](photo/7.png)  
-执行以上代码，会出现如下报错：![效果图](photo/8.png)  
+- 没有严格缩进，在执行时会报`IndentationError`的错。**所以Python对格式要求是非常严格的**，如下代码：  
+![效果图](photo/7.png)  
+执行以上代码，会出现如下报错：  
+![效果图](photo/8.png)  
   - `IndentationError: unindent does not match any outer indentation level`意思是：使用的缩进方式不一致，有的用的是tab缩进，有的用的是空格缩进，改为一致即可。
   - `IndentationError: unexpected indent`意思是文件里格式不对了，可能是tab和空格没对齐的原因。
 - Python的代码块中必须使用相同数目的行首缩进空格数，建议在每个缩进层次使用单个制表符（tab缩进）或两个空格符或四个空格，但**切记不能混用**。
 ## 多行语句
 
-- Python语句中一般以新行作为语句的结束符。使用**斜杠（/）**将一行的语句分为多行显示，语句中包涵`[]`、`{}`、或`()`括号就不需要使用多行连接符。如：![效果图](photo/9.png)		
+- Python语句中一般以新行作为语句的结束符。使用**斜杠（/）**将一行的语句分为多行显示，语句中包涵`[]`、`{}`、或`()`括号就不需要使用多行连接符。如：  ![效果图](photo/9.png)		
 ## Python引号  
 
 - Python可以使用引号（`'`）双引号（`"`）、三引号（`'''`或`"""`）来表示字符串，引号的开始与结束必须是相同类型的。
@@ -82,7 +89,8 @@
 - 空格的作用在于分隔两段不同功能或含义的代码，便于日后代码的维护或重构。注：**空行也是程序代码的一部分**
 ##等待用户输入  
 
-- 输入代码`raw_input("\n\nPress the enter key to exit.")`,执行后就会等待用户输入，按回车键后就会退出。如：![效果图](photo/11.png)  
+- 输入代码`raw_input("\n\nPress the enter key to exit.")`,执行后就会等待用户输入，按回车键后就会退出。如：  
+![效果图](photo/11.png)  
 - “\n\n”在结果输出前会输出两个新的空行，一旦用户按下enter键退出，其他键显示。
 ##同一行显示多条语句、输出语句  
 
