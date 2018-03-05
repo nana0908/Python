@@ -34,7 +34,8 @@
   ![自带IDE截图](photo/1.png)
   - 在Python2.7.14中输入`print "hello,Python!你好"`，点击enter查看效果，如：  
   ![效果图](photo/2.png)  
-## 脚本式编程  
+  - python IDLE（python shell）快捷键：`alt+p`重复上一次代码；`alt+n`选择下一个代码；`home`光标移至行首；`ctrl+e`光标移至行尾；`alt+/`自动补全代码；`ctrl+shift+space`自动补全提示  
+## 脚本式编程  
 
 - 脚本式编程：通过脚本参数调用解释器开始执行脚本，直到脚本执行完毕，当脚本执行完成后，解释器不再有效。  
   - Python Shell中点击File——>New File新建一个python脚本（test.py）  
